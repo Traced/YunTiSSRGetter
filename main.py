@@ -12,7 +12,7 @@ if 3 > sys.version_info.major or 6 > sys.version_info.minor:
 #
 http_lib = 'raw'
 try:
-    import requests1
+    import requests
 
     http_lib = 'requests'
 except ImportError:
